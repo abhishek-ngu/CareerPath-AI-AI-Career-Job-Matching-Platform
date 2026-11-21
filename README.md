@@ -147,22 +147,6 @@ The repo includes an offline evaluation pipeline located in `evals/`:
 
 To enable LLM calls in CI, add `OPENAI_API_KEY` as a GitHub repository secret (Settings → Secrets and variables → Actions).
 
-## Example CV Bullets
-
-You can adapt these for your résumé:
-
-> Built CareerPath AI, an end-to-end AI career platform featuring semantic job search, personalized match ranking, an ATS résumé scorer (0–100), and a JD-aware CV tailor agent — powered by LLM agents with function calling, Pydantic structured outputs, and PostgreSQL conversation memory.
-
-> Engineered hybrid retrieval (pgvector embeddings + PostgreSQL full-text search) over ~2,000 job postings with an LLM reranker returning structured match scores and explanations.
-
-> Containerized a FastAPI backend and PostgreSQL/pgvector database using Docker Compose with volume persistence, `.env`-based configuration, and reproducible single-command builds.
-
-> Implemented an offline LLM eval pipeline (golden set + LLM-as-a-judge) in GitHub Actions to detect prompt/model regressions on every PR.
-
-## License
-
-MIT License. See `LICENSE` if added.
-
 ---
 
 **Note:** This is a local-first portfolio project. All LLM agent files currently contain skeleton stubs — replace them with real OpenAI API calls using your key in `.env` to activate full functionality.
