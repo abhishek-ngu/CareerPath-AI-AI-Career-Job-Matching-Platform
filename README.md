@@ -146,7 +146,3 @@ The repo includes an offline evaluation pipeline located in `evals/`:
 4. Executes `python evals/run_eval.py`
 
 To enable LLM calls in CI, add `OPENAI_API_KEY` as a GitHub repository secret (Settings → Secrets and variables → Actions).
-
----
-
-**Note:** This is a local-first portfolio project. All LLM agent files currently contain skeleton stubs — replace them with real OpenAI API calls using your key in `.env` to activate full functionality.
