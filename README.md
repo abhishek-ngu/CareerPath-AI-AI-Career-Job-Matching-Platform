@@ -159,17 +159,6 @@ You can adapt these for your résumé:
 
 > Implemented an offline LLM eval pipeline (golden set + LLM-as-a-judge) in GitHub Actions to detect prompt/model regressions on every PR.
 
-## Roadmap
-
-- [x] Project skeleton: FastAPI, PostgreSQL, pgvector, Docker Compose
-- [x] Pydantic schemas for all agent outputs
-- [x] LLM agent stubs (ATS scorer, CV tailor, career agent)
-- [x] Eval pipeline + GitHub Actions workflow
-- [ ] Wire real OpenAI calls into agent stubs
-- [ ] Add Streamlit frontend UI
-- [ ] Implement pgvector hybrid search + HNSW index querying
-- [ ] Add resume PDF/DOCX text extraction (pdfplumber / python-docx)
-
 ## License
 
 MIT License. See `LICENSE` if added.
